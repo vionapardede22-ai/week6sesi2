@@ -9,7 +9,6 @@ class Home extends StatefulWidget {
   @override
   State<Home> createState() => _HomeState();
 }
-
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   TabController? _tabController;
 
@@ -18,7 +17,6 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     super.initState();
     _tabController = TabController(length: 3, vsync: this);
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,7 +53,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         padding: EdgeInsets.symmetric(horizontal: 16.sp),
         children: [
           SizedBox(height: 8.0.h),
-          Text('List Sayur Tegar',
+          Text('List Sayur Fiona',
               style: TextStyle(
                   fontFamily: 'Varela',
                   fontSize: 24.0.sp,

@@ -136,9 +136,9 @@ class SayurDetail extends StatelessWidget {
                 child: InkWell(
                   onTap: () async {
                     final pesan =
-                        'Hi Tegar Sayur, Saya mau order $sayurname untuk hari ini, apa bisa diantar kerumah?';
+                        'Hi Fiona Sayur, Saya mau order $sayurname untuk hari ini, apa bisa diantar kerumah?';
                     final uri = Uri.parse(
-                      'https://wa.me/628123456789?text=${Uri.encodeComponent(pesan)}',
+                      'https://wa.me/08211212133?text=${Uri.encodeComponent(pesan)}',
                     );
                     final berhasil = await launchUrl(
                       uri,
